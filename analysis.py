@@ -53,6 +53,7 @@ def print_lift_summary(alpha, cl0=0.10, lift_slope=0.11):
     print(f"Lift coefficient: {cl:.3f}")
     
 def solve_alpha(target_cl, cl0=0.10, lift_slope=0.11):
+
     """Find the angle of attack for a target lift coefficient."""
 
     def residual(alpha):
